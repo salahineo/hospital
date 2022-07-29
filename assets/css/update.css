@@ -1,0 +1,19 @@
+@media (min-width: 991px) and (min-width: 992px) {
+  .navigation .gva_menu .sub-menu > li {
+    display: block;
+  }
+
+  .navigation .gva_menu .sub-menu > li > ul {
+    left: 85% !important;
+    top: -15px;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+#CSR .widget.csr-intro {
+  margin: auto;
+}
+
