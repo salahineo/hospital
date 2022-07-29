@@ -17,3 +17,40 @@
   margin: auto;
 }
 
+.webform-submission-request-an-appointment-form .webform-options-display-side-by-side {
+  display: flex;
+}
+
+.webform-submission-request-an-appointment-form input[type="radio"] {
+  display: none;
+}
+
+.webform-submission-request-an-appointment-form input[type="radio"] + label {
+  font-size: 13px;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: normal !important;
+  margin-right: 0;
+  background: #096798;
+  border-color: #096798;
+  color: #fff !important;
+  margin-top: 0 !important;
+  margin-bottom: 0;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  text-decoration: none;
+  padding: 6px 15px !important;
+  cursor: pointer;
+}
+
+.webform-submission-request-an-appointment-form .webform-options-display-side-by-side .js-form-item {
+  margin-right: 5px !important;
+}
+
+.webform-submission-request-an-appointment-form .webform-options-display-side-by-side .js-form-item:last-of-type label {
+  border: 1px solid #c5c5c5;
+  background: #f6f6f6;
+  color: #454545 !important;
+}
