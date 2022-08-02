@@ -54,3 +54,54 @@
   background: #f6f6f6;
   color: #454545 !important;
 }
+
+/*#block-gavias-fiza-mainnavigation {*/
+/*  display: none !important;*/
+/*}*/
+
+/*.search-content {*/
+/*  height: 50px !important;*/
+/*  padding: 8px !important;*/
+/*}*/
+
+/*@media (min-width: 1200px) {*/
+/*  #block-gavias-fiza-mainnavigation {*/
+/*    display: block !important;*/
+/*  }*/
+
+/*  .search-content {*/
+/*    height: auto !important;*/
+/*    padding: 15px !important;*/
+/*  }*/
+/*}*/
+
+/*@media (max-width: 1200px) {*/
+/*  .gva-offcanvas-mobile .close-offcanvas {*/
+/*    display: block !important;*/
+/*    visibility: visible !important;*/
+/*  }*/
+/*}*/
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  ul.gva_menu_main {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  ul.gva_menu_main li.appointment_menu_item {
+    margin-left: auto;
+    position: relative;
+    right: 110px;
+  }
+
+  .gva-search-region {
+    top: 70% !important;
+    right: 340px !important;
+  }
+
+  .search-content {
+    display: flex !important;
+    align-items: center !important;
+    height: 100% !important;
+  }
+}
