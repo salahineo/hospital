@@ -33,6 +33,11 @@
 
 ## Forms
 
+- Search -> Nav Menu
+- Newsletter -> Footer
+- Contact Us -> Contact Us Page
+- Doctor Search -> Doctors Page
+
 ## Dynamic Notes
 
 - Navbar link hover state -> [it takes class 'menu-item--active-trail']
